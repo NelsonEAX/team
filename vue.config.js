@@ -1,12 +1,12 @@
 
 const path = require('path');
-const defaultSettings = require('./src/settings.js');
+// const defaultSettings = require('./src/settings.js');
 
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
 
-const name = defaultSettings.title || 'Team Work'; // page title
+const name = 'Team Work'; // page title
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
